@@ -144,8 +144,7 @@ Now that you have the code on your machine, you can *upload* it on the microcont
      <details>
     <summary><i> Code STILL doesn't run? </i></summary>
     1. Set LED brightness to 255 (instead of 255/3). <br>
-	     2. Add the line "Serial.begin();" to your code inside the "setup" function. <br>
-	     3. Add the line "Serial.println(String(color));" inside the "loop" function.
+    2. Make sure you have the correct VSCode extensions installed. If you had a previous installation of VSCode already on your machine, consider uninstalling and reinstalling the program.
     </details>
 
 6. For the lab partner who did not get to use their machine to upload code on the microcontroller yet, open `src/robot/blink_test.cpp`.
