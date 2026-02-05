@@ -19,5 +19,5 @@ void loop() {
   ums3.setPixelColor(UMS3::colorWheel(color));
   Serial.println(String(color));
   color++;
-  delay(15);
+  delay(60);
 }
